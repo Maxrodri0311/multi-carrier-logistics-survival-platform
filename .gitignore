@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data & Large Artifacts (Generated at runtime via run_demo.bat)
+data/*.parquet
+data/semantic_layer/*.parquet
+*.parquet
+*.csv
+
+# Environments & IDEs
+.env
+.venv/
+venv/
+ENV/
+.idea/
+.vscode/
+*.swp
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS specific
+Thumbs.db
+Desktop.ini
+.DS_Store
