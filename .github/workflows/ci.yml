@@ -1,0 +1,30 @@
+name: CI & Quantitative Benchmarks
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test-and-benchmark:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Generate synthetic dataset
+      run: |
+        python src/data_generator.py --records 25000
+    - name: Run Pytest Suite
+      run: |
+        pytest tests/test_suite.py -v
+    - name: Run Latency Benchmarks
+      run: |
+        python tests/benchmark.py
