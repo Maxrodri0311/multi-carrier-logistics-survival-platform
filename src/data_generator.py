@@ -1,6 +1,6 @@
 """
 src/data_generator.py - Generador de Datos Sintéticos con Física Estocástica Real
-Modela la dinámica logística multi-carrier de Skydropx - Frenet (50,000+ registros).
+Modela la dinámica logística multi-carrier de Multi-Carrier Logistics Practice - Logistics Gateway Practice (50,000+ registros).
 Incorpora censura a derecha, colas pesadas de tránsito, discrepancia de cubicaje y fallas de SLA.
 """
 
@@ -28,7 +28,7 @@ def generate_synthetic_dataset(
     """
     Genera un dataset logístico masivo con física estocástica realista para análisis de supervivencia.
     """
-    print(f"[Data Generator] Generating {num_records:,} logistics shipments for Skydropx - Frenet...")
+    print(f"[Data Generator] Generating {num_records:,} logistics shipments for Multi-Carrier Logistics Practice - Logistics Gateway Practice...")
     start_time = time.perf_counter()
     np.random.seed(seed)
 
@@ -198,7 +198,7 @@ def generate_synthetic_dataset(
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Synthetic Logistics Data Generator for Skydropx - Frenet")
+    parser = argparse.ArgumentParser(description="Synthetic Logistics Data Generator for Multi-Carrier Logistics Practice - Logistics Gateway Practice")
     parser.add_argument("--records", type=int, default=50000, help="Number of shipment records to generate")
     parser.add_argument("--output", type=str, default="data/raw_dataset.parquet", help="Output Parquet filepath")
     parser.add_argument("--seed", type=int, default=42, help="Random seed for reproducibility")

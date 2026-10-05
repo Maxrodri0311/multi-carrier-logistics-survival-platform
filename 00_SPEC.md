@@ -2,7 +2,7 @@
 
 ```text
 ====================================================================================================
-SYSTEM:           Skydropx - Frenet Logistics Survival Analytics Platform
+SYSTEM:           Multi-Carrier Logistics Practice - Logistics Gateway Practice Logistics Survival Analytics Platform
 DOMAIN:           Multi-Carrier Shipping Gateway & E-Commerce Logistics Infrastructure
 ENGINE:           Causal & Survival Lifecycle Analytics (CAUSAL_SURVIVAL)
 CORE ALGORITHMS:  Kaplan-Meier Estimator, Actuarial Life Tables, Cox Proportional Hazards
@@ -15,8 +15,8 @@ AUTHOR:           Maximiliano Rodriguez (maxrodri0311@gmail.com | https://github
 
 ## 🏛️ 1. Contexto de Negocio & Planteamiento del Dolor (The Business Problem)
 
-### 🏢 Contexto Corporativo (Skydropx - Frenet)
-Skydropx - Frenet opera como la plataforma líder en América Latina de agregación y enrutamiento inteligente de envíos para e-commerce. Conecta a decenas de miles de comercios (*merchants*) con múltiples redes de transporte (FedEx, DHL Express, Estafeta, 99Minutos, Redpack), intermediando:
+### 🏢 Contexto Corporativo (Multi-Carrier Logistics Practice - Logistics Gateway Practice)
+Multi-Carrier Logistics Practice - Logistics Gateway Practice opera como la plataforma líder en América Latina de agregación y enrutamiento inteligente de envíos para e-commerce. Conecta a decenas de miles de comercios (*merchants*) con múltiples redes de transporte (FedEx, DHL Express, Estafeta, 99Minutos, Redpack), intermediando:
 1. **Cotización dinámica y selección algorítmica de fletes:** Basada en reglas de menor costo, menor tiempo de tránsito o balance de confiabilidad.
 2. **Ciclo de vida operativo del paquete:** Desde la recolección en almacén del merchant, consolidación en centros de distribución (*hubs*), tránsito de media y larga distancia, hasta el último intento de entrega domiciliaria (*last-mile*).
 3. **Auditoría de facturación y discrepancias volumétricas:** Conciliación entre el flete presupuestado al comercio y el costo liquidado por el transportista según cubicaje real.
@@ -183,7 +183,7 @@ erDiagram
 
 ### ❓ Pregunta 3: "¿Cómo traduce un Senior Data Analyst este modelo técnico en impacto financiero directo para la junta directiva?"
 > **💡 Respuesta de Staff Engineer:**
-> *"Traduciendo la matemática en dólares y decisiones operativas concretas: demostramos que el 14.8% de breaches genera un impacto directo de $265,797 USD en penalizaciones (el 40.7% del ingreso bruto por fletes). Al modelar los Hazard Ratios, demostramos que ciertos carriers tienen un riesgo 9 veces superior al benchmark de DHL ($HR = 9.21$). Con estos datos, la dirección de Skydropx no solo renegocia SLAs y penalizaciones con los carriers problemáticos, sino que alimenta el motor de enrutamiento dinámico para desviar paquetes de alto valor hacia carriers de bajo riesgo cuando la ventana temporal cruza las 36 horas."*
+> *"Traduciendo la matemática en dólares y decisiones operativas concretas: demostramos que el 14.8% de breaches genera un impacto directo de $265,797 USD en penalizaciones (el 40.7% del ingreso bruto por fletes). Al modelar los Hazard Ratios, demostramos que ciertos carriers tienen un riesgo 9 veces superior al benchmark de DHL ($HR = 9.21$). Con estos datos, la dirección de Multi-Carrier Logistics Practice no solo renegocia SLAs y penalizaciones con los carriers problemáticos, sino que alimenta el motor de enrutamiento dinámico para desviar paquetes de alto valor hacia carriers de bajo riesgo cuando la ventana temporal cruza las 36 horas."*
 
 ---
 

@@ -1,0 +1,33 @@
+# ==============================================================================
+# GHOST PROJECT CONTRACT MANIFEST (Profile-as-Code SSOT)
+# ==============================================================================
+id: "GP-008"
+name: "Multi-Carrier Logistics Survival Analytics Platform"
+role_title: "Senior Data Analyst & Solutions Architect"
+employer_name: "Independent Practice"
+location: "Remote"
+repo_url: "https://github.com/Maxrodri0311/multi-carrier-logistics-logistics-gateway-logistics-survival-engine"
+domain_cluster: "Logistics & E-Commerce Infrastructure"
+
+benchmarks:
+  p50_kpi_latency_ms: 25.58
+  peak_ram_mb: 0.33
+  throughput_records_sec: 50000
+  test_pass_rate_pct: 100
+
+stack:
+  - "DuckDB"
+  - "Apache Parquet"
+  - "Kaplan-Meier Product-Limit Estimator"
+  - "Actuarial Life Tables"
+  - "Cox Proportional Hazards"
+  - "Power BI DAX"
+  - "Python 3.11"
+  - "Pytest"
+  - "Pydantic v2"
+  - "Clean Architecture (DIP)"
+
+bullets:
+  - "Architected an in-memory OLAP logistics survival engine using DuckDB and columnar Parquet, computing non-parametric Kaplan-Meier curves and Actuarial Life Tables across 50,000 synthetic shipments in 25.58ms (p50) with 0.33 MB peak RAM."
+  - "Engineered multi-carrier SLA breach risk stratification via Cox Proportional Hazards hazard ratios, pinpointing critical shipping route failure rates and automating Power BI DAX semantic data mart models."
+  - "Implemented strict Clean Architecture with Inversion of Dependencies (DIP) and 100% Pytest suite verification (6/6 integration & mathematical invariant tests passing)."

@@ -43,7 +43,7 @@ class DuckDBStorageAdapter:
 
 class AnalyticsEngine:
     """
-    Motor de dominio analítico para Skydropx - Frenet.
+    Motor de dominio analítico para Multi-Carrier Logistics Practice - Logistics Gateway Practice.
     Recibe la dependencia de almacenamiento inyectada en su constructor (Anti-Buried Dependencies).
     """
     def __init__(
@@ -305,7 +305,7 @@ class AnalyticsEngine:
         return paths
 
     def get_executive_kpis(self) -> Dict[str, Any]:
-        """Calcula el resumen de métricas clave C-Level de alto impacto para Skydropx - Frenet."""
+        """Calcula el resumen de métricas clave C-Level de alto impacto para Multi-Carrier Logistics Practice - Logistics Gateway Practice."""
         self._ensure_data_source()
         query = f"""
         SELECT 
@@ -334,7 +334,7 @@ def create_engine(data_path: str = "data/raw_dataset.parquet") -> AnalyticsEngin
 
 if __name__ == "__main__":
     print("=" * 70)
-    print("  SKYDROPX - FRENET: CAUSAL & SURVIVAL LIFECYCLE ANALYTICS ENGINE")
+    print("  Multi-Carrier Logistics Practice - Logistics Gateway Practice: CAUSAL & SURVIVAL LIFECYCLE ANALYTICS ENGINE")
     print("  Clean Architecture & Dependency Inversion Principle (DIP)")
     print("=" * 70)
 

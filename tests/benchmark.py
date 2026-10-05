@@ -1,7 +1,7 @@
 """
 tests/benchmark.py - Medición Real de Latencia p50, p95 y p99 & Consumo de Memoria
 Sin placeholders: ejecuta 30 iteraciones reales con time.perf_counter() y tracemalloc
-sobre el dataset logístico masivo de Skydropx - Frenet (50,000 registros).
+sobre el dataset logístico masivo de Multi-Carrier Logistics Practice - Logistics Gateway Practice (50,000 registros).
 """
 
 import os
@@ -27,7 +27,7 @@ from src.core_engine import create_engine
 def run_benchmarks(iterations: int = 30, data_path: str = "data/raw_dataset.parquet"):
     print("=" * 70)
     print("  QUANTITATIVE LATENCY & MEMORY BENCHMARK (Real Environment)")
-    print(f"  Target: Skydropx - Frenet Logistics Survival Analytics Engine")
+    print(f"  Target: Multi-Carrier Logistics Practice - Logistics Gateway Practice Logistics Survival Analytics Engine")
     print(f"  Dataset: {data_path} (50,000 shipment records)")
     print(f"  Iterations: {iterations} full executions")
     print("=" * 70)

@@ -38,7 +38,7 @@ def shared_test_data(tmp_path_factory):
 
 
 def test_data_generator_contract_and_physics(shared_test_data):
-    """Verifica que el generador respete el contrato de datos y la física de Skydropx - Frenet."""
+    """Verifica que el generador respete el contrato de datos y la física de Multi-Carrier Logistics Practice - Logistics Gateway Practice."""
     df = pd.read_parquet(shared_test_data)
     
     # 1. Dimensiones y no vacuidad

@@ -2,10 +2,10 @@
 chcp 65001 >nul
 setlocal EnableDelayedExpansion
 
-title "Skydropx - Frenet: Logistics Survival Analytics Platform"
+title "Multi-Carrier Logistics Practice - Logistics Gateway Practice: Logistics Survival Analytics Platform"
 
 echo ======================================================================
-echo  Skydropx - Frenet: Logistics Survival Analytics Platform
+echo  Multi-Carrier Logistics Practice - Logistics Gateway Practice: Logistics Survival Analytics Platform
 echo  Automated Pipeline, In-Memory OLAP and Test Suite (1-Click Run)
 echo ======================================================================
 echo.
